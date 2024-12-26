@@ -1,0 +1,9 @@
+node_modules/
+.env
+.eslintrc.js
+.eslintignore
+.prettierrc.js
+.prettierignore
+.eslintcache
+.prettierrc
+.eslintrc.mjs

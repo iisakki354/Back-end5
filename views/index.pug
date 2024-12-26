@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title= title
+    body
+        h1= title
+        p This is a simple landing page.
+        ul
+            each item in items
+                li
+                    img(src=item.image, alt=item.name, width='100')
+                    | #{item.name}
